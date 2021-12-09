@@ -10,5 +10,5 @@ func main() {
 	s := &singleshop.Shop{
 		Name: "single",
 	}
-	fmt.Println(s)
+	fmt.Printf("%#v", s)
 }

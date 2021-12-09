@@ -9,6 +9,7 @@ func main() {
 		Favolite: &shop.Shop{
 			Name:    "new",
 			Address: "tokyo",
+			Cate:    1,
 		},
 	}
 	u.fav()

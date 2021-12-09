@@ -1,6 +1,6 @@
 package mshop
 
-type MShop struct {
+type Shop struct {
 	Name    string
 	Address string
 	Cate    int

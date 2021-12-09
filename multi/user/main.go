@@ -1,12 +1,10 @@
 package main
 
-import (
-	"github.com/takashabe/workspace-sandbox/workspace/shop"
-)
+import "github.com/takashabe/workspace-sandbox/multi/mshop"
 
 func main() {
 	u := &User{
-		Favolite: &shop.Shop{
+		Favolite: &mshop.Shop{
 			Name:    "new",
 			Address: "tokyo",
 			Cate:    1,
@@ -18,7 +16,7 @@ func main() {
 type User struct {
 	Email    string
 	Name     string
-	Favolite *shop.Shop
+	Favolite *mshop.Shop
 }
 
 func (u *User) fav() {

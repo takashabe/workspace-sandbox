@@ -1,5 +1,7 @@
 package shop
 
 type Shop struct {
-	Name string
+	Name    string
+	Age     int
+	Address string
 }

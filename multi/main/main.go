@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/takashabe/workspace-sandbox/multi/multishop"
+	"github.com/takashabe/workspace-sandbox/multi/shop"
 )
 
 func main() {
-	s := &multishop.Shop{
+	s := &shop.Shop{
 		Name: "multi",
 	}
 	fmt.Printf("%#v", s)

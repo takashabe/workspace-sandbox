@@ -1,6 +1,10 @@
 package main
 
-import "github.com/takashabe/workspace-sandbox/multi/mshop"
+import (
+	"fmt"
+
+	"github.com/takashabe/workspace-sandbox/multi/mshop"
+)
 
 func main() {
 	u := &User{
@@ -20,5 +24,5 @@ type User struct {
 }
 
 func (u *User) fav() {
-	// fmt.Printf("favolite category: %s", u.Favolite.Category)
+	fmt.Printf("favolite category: %v", u.Favolite.Cate)
 }

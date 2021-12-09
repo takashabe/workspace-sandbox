@@ -1,17 +1,14 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/takashabe/workspace-sandbox/workspace/shop"
 )
 
 func main() {
 	u := &User{
 		Favolite: &shop.Shop{
-			Name:     "new",
-			Address:  "tokyo",
-			Category: "book",
+			Name:    "new",
+			Address: "tokyo",
 		},
 	}
 	u.fav()
@@ -24,5 +21,5 @@ type User struct {
 }
 
 func (u *User) fav() {
-	fmt.Printf("favolite category: %s", u.Favolite.Category)
+	// fmt.Printf("favolite category: %s", u.Favolite.Category)
 }

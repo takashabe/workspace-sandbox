@@ -1,7 +1,5 @@
-package shop
+package workspaceshop
 
 type Shop struct {
-	Name     string
-	Address  string
-	Category string
+	Name string
 }

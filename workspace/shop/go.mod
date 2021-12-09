@@ -1,3 +1,3 @@
-module github.com/takashabe/workspace-sandbox/workspace/shop
+module github.com/takashabe/workspace-sandbox/workspace/workspaceshop
 
-go 1.17
+go 1.18

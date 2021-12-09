@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/takashabe/workspace-sandbox/multi/multishop"
 )
 
 func main() {

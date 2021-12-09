@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	s := &shop.Shop{
+	s := &workspaceshop.Shop{
 		Name: "multi",
 	}
 	fmt.Printf("%#v", s)

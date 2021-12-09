@@ -9,9 +9,9 @@ import (
 func main() {
 	u := &User{
 		Favolite: &mshop.Shop{
-			Name:    "new",
-			Address: "tokyo",
-			Cate:    1,
+			Name:     "new",
+			Address:  "tokyo",
+			Category: "aaa",
 		},
 	}
 	u.fav()
@@ -24,5 +24,5 @@ type User struct {
 }
 
 func (u *User) fav() {
-	fmt.Printf("favolite category: %v", u.Favolite.Cate)
+	fmt.Printf("favolite category: %v", u.Favolite.Category)
 }
